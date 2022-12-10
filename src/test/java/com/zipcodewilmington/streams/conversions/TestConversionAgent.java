@@ -14,6 +14,7 @@ import java.util.stream.Stream;
  * @ATTENTION_TO_STUDENTS You are FORBIDDEN from modifying this class
  */
 public class TestConversionAgent<T extends PersonConversionAgent<Person>> {
+    //somethings broken here?
     private final T conversionAgent;
 
     private List<Person> personList;
